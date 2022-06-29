@@ -1,0 +1,133 @@
+@media (max-width:550px) {
+    header .mega-menu {
+        flex-direction: column;
+        gap: 0;
+        padding: 10px;
+    }
+
+    header .mega-menu .links:nth-child(2) li:last-child {
+        border-bottom: 1px solid #e9e6e6;
+    }
+}
+
+@media (max-width:765px) {
+    header .container {
+        justify-content: center;
+    }
+
+    header .logo {
+        flex-basis: 100%;
+        height: 50px;
+    }
+
+    header .main-nav>li>a {
+        height: 50px;
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    .landing .content h1 {
+        font-size: 25px;
+    }
+
+    .landing .content p {
+        font-size: 15px;
+    }
+
+    #work-steps .step {
+        flex-direction: column;
+        text-align: center;
+    }
+    #work-steps .step img {
+        margin: 0 0 15px;
+    }
+
+    #events form {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    #events .subscribe  input {
+        width: 100%;
+        border-radius: 0;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer .line {
+        flex-direction: column;
+    }
+    .footer .line i {
+        margin: 0 0 10px;
+    }
+    .footer .links {
+        justify-content: center;
+    }
+}
+
+/* Small */
+@media (min-width: 768px) {
+    .container {
+        width: 750px;
+    }
+}
+
+@media (max-width:990px) {
+    .landing .image {
+        display: none;
+    }
+
+    .landing .container {
+        justify-content: center;
+    }
+
+    .landing .content {
+        text-align: center;
+    }
+
+    .landing .content p {
+        margin: 10px auto;
+    }
+
+    .mega-menu .image {
+        display: none;
+    }
+
+    #our-skills img {
+        display: none;
+    }
+
+    #work-steps .container {
+        justify-content: center;
+    }
+    #events img {
+        display: none;
+    }
+    #video .holder {
+        flex-direction: column;
+    }
+    #video .list {
+        width: 100%;
+    }
+    #discount .image,
+    #discount .form{
+        flex-basis: 100%;
+    }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+    .container {
+        width: 970px;
+    }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+    .container {
+        width: 1170px;
+    }
+    #pricing .plan:nth-child(2) {
+        transform: translateY(-20px);
+    }
+}
